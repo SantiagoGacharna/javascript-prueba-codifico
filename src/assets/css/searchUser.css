@@ -1,0 +1,138 @@
+.title {
+    font-size: 3em;
+    text-align: center;
+}
+.cont_search_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search_bar {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 15px;
+    width: fit-content;
+}
+.input_search {
+    border: 0;
+    width: 200px;
+    background-color: transparent;
+}
+.input_search:focus {
+    outline: none;
+}
+.cont_icons i {
+    cursor: pointer;
+    padding: 0 5px;
+}
+.cont_info_user {
+    display: flex;
+    justify-content: center;
+}
+.card_user {
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -15px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.first_part {
+    width: 150px;
+    background-color: #618081;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.second_part {
+    width: 300px;
+    background: linear-gradient(#566b92, #6aa4ca);
+    transition: width 0.4s;
+    overflow: hidden;
+}
+.cont_image {
+    margin: 10% 10%;
+    border-radius: 50%;
+    width: 117px;
+    height: 117px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_first {
+    font-size: 0.75em;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.125rem 0.75rem;
+    border-radius: 100px;
+    white-space: nowrap;
+    width: fit-content;
+}
+.text_name {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+.cont_location_twitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+.cont_location_twitter i {
+    margin-right: 5px;
+}
+.cont_blog a {
+    color: rgb(209, 193, 193);
+    font-size: 1em;
+}
+.cont_blog {
+    text-align: center;
+    margin-top: 32px;
+}
+.cont_blog i {
+    color: #fff;
+    margin-right: 4px;
+}
+.cont_down_card {
+    margin-top: 26px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cont_down_card .title{
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cont_down_card .value {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1rem;
+}
+.cont_stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont_stats i {
+    font-size: 2rem;
+    padding: 5px 0;
+}
+.no_info {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}

@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SearchUser />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchUser from './components/SearchUser.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SearchUser
   }
 }
 </script>
 
 <style>
+@import url('./assets/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+	font-family: Abel, Arial, Verdana, sans-serif;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Abel, Arial, Verdana, sans-serif;
 }
 </style>
